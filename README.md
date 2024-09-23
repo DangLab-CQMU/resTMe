@@ -50,7 +50,7 @@ gsea_results_list <- runGSEA_individual(DEG, org = "mouse", signif = "p_val_adj"
 ```
 
 #### Parameters:
-- `DEG`: A data frame of differentially expressed genes (DEGs) with columns such as `sample`, `symbol`, `log2FC`, and a significance column.
+- `DEG`: A data frame of differentially expressed genes (DEGs).The input file must contain the following columns: `symbol` (representing gene symbols for human or mouse), `p_val` (p-value), `log2FC` (log2 fold change), `p_val_adj` (adjusted p-value), and `sample` (which can have multiple entries). Please note that the column names are fixed, and any discrepancies will result in an error. 
 - `org`: Organism name, either `"mouse"` or `"human"`.
 - `signif`: Column name indicating the significance values (e.g., `"p_val"`,`"p_val_adj"`,`"non-selection"`).
 
