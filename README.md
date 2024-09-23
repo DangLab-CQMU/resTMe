@@ -1,7 +1,7 @@
 
 # resTMe
 
-`resTMe` is an R package for performing Gene Set Enrichment Analysis (GSEA) and calculating MP scores with built-in mouse and human gene set files. It provides a streamlined workflow for processing differentially expressed genes (DEGs), running GSEA, and visualizing results.
+`resTMe` is an R package for performing Gene Set Enrichment Analysis (GSEA) and calculating MP scores with built-in mouse and human intramural meta-program (MP) gene set files. It provides a streamlined workflow for processing differentially expressed genes (DEGs), running GSEA, and visualizing results.
 
 ## Installation
 
@@ -27,7 +27,7 @@ BiocManager::install(c("clusterProfiler", "enrichplot", "ggplot2"))
 
 ## Built-in Data
 
-The package includes built-in gene set files for mouse and human:
+The package includes built-in intramural MP gene set files for mouse and human:
 - `mouseMP_all.gmt`: Mouse gene sets
 - `humanMP_all.gmt`: Human gene sets
 
@@ -143,4 +143,4 @@ This package is licensed under the MIT License.
 
 ## Contact
 
-For questions or issues, please contact [Ziruoyu Wang](ziruoyu.wang@gmail.com).
+For questions or issues, please contact `ziruoyu.wang@gmail.com`.
