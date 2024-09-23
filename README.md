@@ -22,8 +22,7 @@ To ensure all dependencies are installed, including those from Bioconductor:
 install.packages("BiocManager")
 
 # Use BiocManager to install clusterProfiler, enrichplot, and ggplot2
-BiocManager::install(c("clusterProfiler", "enrichplot"))
-install.packages("ggplot2")
+BiocManager::install(c("clusterProfiler", "enrichplot", "ggplot2"))
 ```
 
 ## Built-in Data

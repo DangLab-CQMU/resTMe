@@ -10,7 +10,7 @@ DEG <- read.csv('./test-degdata.csv')
 gsea_results_list <- runGSEA_individual(DEG, "mouse", "p_val_adj")
 
 pdf("p1.pdf", width = 5, height = 6)
-# 使用 grid.arrange 来分页显示 plot
+# Use grid.arrange to display plots in pagination
 for (i in seq_along(gsea_results_list)) {
   print(gsea_results_list[[i]]$plot)  # print each plot
 }
