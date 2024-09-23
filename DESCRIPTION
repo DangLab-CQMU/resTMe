@@ -2,7 +2,7 @@ Package: resTMe
 Title: GSEA Plotting and meta-program (MP) Scoring for responsive tumor microenvironment (resTMe).
 Version: 0.1.0
 Authors@R: 
-    person("Ziruoyu", "wang", email = "ziruoyu.wang@gmail.com", role = c("aut", "cre"))
+    person("Ziruoyu", "Wang", email = "ziruoyu.wang@gmail.com", role = c("aut", "cre"))
 Description: A package for GSEA analysis and meta-program (MP) scoring with built-in mouse and human gene set files (mouseMP_all.gmt and humanMP_all.gmt). MP score is broadly applicable for evaluating drug synergies.
 License: MIT
 Encoding: UTF-8
