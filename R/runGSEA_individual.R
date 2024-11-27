@@ -54,6 +54,7 @@ runGSEA_individual <- function(DEG, org, signif) {
       next  # Skip this sample if no significant genes are found
     }
 
+    DEG1$log2FC <- as.numeric(as.character(DEG1$log2FC))
     DEG1 <- DEG1[order(DEG1$log2FC, decreasing = TRUE),]
     GSEAgeneList <- DEG1$log2FC
     names(GSEAgeneList) <- as.character(DEG1$symbol)
